@@ -1,0 +1,12 @@
+spring.application.name=Project_3_WeatherSensors
+spring.output.ansi.enabled=ALWAYS
+
+# Config DataBase (Data source)
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=
+spring.datasource.username=F
+spring.datasource.password=
+
+# Config Hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.show_sql=true
